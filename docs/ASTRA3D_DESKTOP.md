@@ -9,6 +9,10 @@
 
 This fork contains the upstream Blender source. The initial ASTRA3D identity layer and a small application-template extension are being added. This is not yet a renamed binary, a completed visual redesign, or a production release.
 
+## Product ecosystem
+
+ASTRA3D is browser-first and cross-device. The primary product experience is ASTRA3D Studio, maintained separately at https://github.com/Anish-Kushwaha/ASTRA3D and designed for phones, tablets, laptops and desktop browsers. This Blender-derived fork is the optional workstation companion for advanced desktop production; it is not required to use the browser Studio. Browser-native project editing remains separate from the Blender desktop runtime. The target interchange path is a versioned ASTRA3D scene document plus glTF 2.0 / GLB for supported scene data. Native .blend files remain desktop-native.
+
 ## Product principles
 
 1. Preserve Blender's proven native data model, file format, editor architecture, Python API, and rendering backends.
