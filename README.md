@@ -16,6 +16,10 @@ The goal is to develop a professional, extensible 3D production environment whil
 - **Upstream:** [blender/blender](https://github.com/blender/blender)
 - **Upstream documentation:** [Blender build handbook](https://developer.blender.org/docs/handbook/building_blender/)
 
+## Product ecosystem
+
+ASTRA3D is a **browser-first, cross-device** 3D creation platform. The browser Studio runs directly on phones, tablets, laptops and desktop browsers; this Blender-derived repository is the optional workstation companion for advanced desktop production. The browser Studio is maintained separately at [Anish-Kushwaha/ASTRA3D](https://github.com/Anish-Kushwaha/ASTRA3D). Browser projects will use a versioned ASTRA3D scene document and glTF 2.0 / GLB interchange where supported. Native `.blend` files remain desktop-native; the browser does not currently open them directly.
+
 ## What's included now
 
 - Full upstream Blender source and history, maintained as a fork.
